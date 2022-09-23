@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'kgsolid';
+    src: url('fonts/KgHappySolid-myDG.ttf');
+}
+ 
+@font-face {
+    font-family: 'kghappysolidshadow';
+    src: url('fonts/KgHappy-wWZZ.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(82, 79, 79);
+    position: relative;
+ }
+
+ header {
+    background-color:gray ;
+    position: sticky;
+    top: 0%;
+  
+ }
+
+a i {
+    color: white;
+    font-size: 30pt;
+    transition: 0.3s;
+}
+
+i:hover {
+    color:rgb(239, 160, 174);
+    font-size: 31pt;
+}
+
+header section a {
+    color: white;
+    font-size: 25px;
+}
+
+main section  h3{
+    color: white;
+    font-size: 40px;
+    font-family: 'kgsolid';
+    text-decoration: underline; }
+     
+    main section p {
+        color: white;
+        font-size: 30px;
+        font-family: 'kgsolid';
+    }
+    main section h1 {
+        color:white;
+        font-family: 'kghappysolidshadow';
+        font-size: 100px;
+    }
+    main section article {
+        color:white;
+        font-family: Alegreya;
+        font-size: 20px;
+    }
+    main  section img {
+        width: 100%;
+        border-radius: 50%;
+     }
+
+    
+ main section article{
+    font-family:'Alegreya';
+    font-size: 16pt;
+ }
+      #projects {
+        font-family: 'kgsolid';
+        color: white;
+        font-size: 50px;
+      }
+ .card-body {
+    color: rgb(53, 50, 50);
+}
+
+ 
+  #arrow {
+    color: white;
+    font-size: 50pt;
+  }
+
+   .jumptotop {
+    height: 20px;
+    color:white;
+    font: 30pt;
+    font-family:'kgsolid';
+  }
+
+.jumptotop a {
+    color: white;
+    font-size: 15pt;
+    font-family: 'kgsolid';
+    
+    transition: 0.3s;
+}
+
+.jumptotop a:hover {
+  color: rgb(239, 160, 174) ;
+  font-size:18pt;
+}
+
+.card-text {
+  font-size: large;
+  font-weight: bold;
+  color: rgb(82, 79, 79);
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+  @media screen and (min-width: 768px){
+
+   #mainbox article {
+    padding: 30px;
+   }
+
+   #mainbox p {
+    padding: 30px;
+    margin: 30px;
+    font-size: 50;
+   }
+
+   #mainbox > *:hover {
+    color: rgb(239, 160, 174);
+   }
+ 
+
+#skills > *:hover {
+color:rgb(239, 160, 174)  ;
+}
+
+#projects:hover {
+  color:rgb(239, 160, 174)  ;
+}
+
+#arrow:hover{
+  color:rgb(239, 160, 174)  ;
+}
+
+
+.wrapper .card {
+  width: 30rem;
+
+}
+
+.jumptotop {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+  }
+
+  
+
+    
+
+  
