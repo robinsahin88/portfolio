@@ -126,7 +126,7 @@ main section  h3{
    #mainbox p {
     padding: 30px;
     margin: 30px;
-    font-size: 50;
+    font-size: 30px;
    }
 
    #mainbox > *:hover {
