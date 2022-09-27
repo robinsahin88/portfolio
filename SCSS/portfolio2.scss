@@ -1,0 +1,174 @@
+@use "variables" as var;
+@use "mixins" as mix;
+
+@font-face {
+    font-family: 'kgsolid';
+    src: url('fonts/KgHappySolid-myDG.ttf');
+}
+ 
+@font-face {
+    font-family: 'kghappysolidshadow';
+    src: url('fonts/KgHappy-wWZZ.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var.$primary-color;
+    position: relative;
+
+    header {
+        background-color:gray ;
+        position: sticky;
+        top: 0%;
+    
+        a {
+    
+            i {
+                color: white;
+                font-size: 30pt;
+                transition: 0.3s;
+            }
+    
+            i:hover {
+                color: var.$secondary-color;
+                font-size: 31pt;
+            }
+            
+        } 
+     }
+    
+     main {
+        section {
+            h3 {
+                color: white;
+                font-size: 40px;
+                font-family: 'kgsolid';
+                text-decoration: underline; 
+            }
+    
+            p {
+                color: white;
+                font-size: 30px;
+                font-family: 'kgsolid';
+            }
+    
+            h1 {
+                color:white;
+                font-family: 'kghappysolidshadow';
+                font-size: 100px;
+            }
+    
+            article {
+                color:white;
+                font-family: Alegreya;
+                font-size: 20px;
+            }
+    
+            img {
+                width: 100%;
+                border-radius: 50%;
+             }
+        }
+     }
+         
+    #projects {
+        font-family: 'kgsolid';
+        color: white;
+        font-size: 50px;
+    }
+     .card-body {
+        color: rgb(53, 50, 50);
+    }
+    
+      #arrow {
+        color: white;
+        font-size: 50pt;
+      }
+    
+       .jumptotop {
+
+        @include mix.jump;
+      
+        a {
+            color: white;
+            font-size: 15pt;
+            font-family: 'kgsolid';
+            
+            transition: 0.3s;
+        }
+        
+        a:hover {
+          color: var.$secondary-color ;
+          font-size:18pt;
+        }
+      }
+    
+    .card-text {
+      font-size: large;
+      color: rgb(82, 79, 79);
+    }
+    
+   .card {
+    @include mix.card;
+
+    } 
+
+  .card-img-top {
+    border-radius: 25px;
+  }
+
+ }
+
+
+  @media screen and (min-width: 768px){
+
+
+   #mainbox {
+    article {
+        padding: 30px;
+    }
+    p {
+        padding: 30px;
+        margin: 30px;
+        font-size: 30px;
+    }
+
+    *:hover {
+        color: var.$secondary-color;
+    }
+   }
+   
+#skills {
+    *:hover {
+        color: var.$secondary-color;
+        }
+}
+
+#projects:hover {
+  color: var.$secondary-color;
+}
+
+#arrow:hover{
+  color: var.$secondary-color;
+}
+
+.jumptotop {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  }
+
+  div {
+    .card {
+        width: 40%;
+    }
+  
+  }
+
+  
+
+    
+
+  
