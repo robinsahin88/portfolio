@@ -14,8 +14,6 @@ body {
 }
 body header {
   background-color: gray;
-  position: sticky;
-  top: 0%;
 }
 body header a i {
   color: white;
